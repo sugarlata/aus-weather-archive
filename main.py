@@ -16,7 +16,7 @@ from aus_weather_data import (
 )
 
 
-ROOT_PATH = "C:\\Users\\Nathan\\Downloads\\Frames"
+ROOT_PATH = os.getenv("RADAR_PATH", "/tmp/radar")
 
 
 def get_all_idrs():
