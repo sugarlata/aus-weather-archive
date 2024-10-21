@@ -1,0 +1,18 @@
+[project]
+name = "aus-weather-archive"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aus-weather-data",
+    "loguru>=0.7.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "boto3>=1.35.44",
+]
+
+[tool.uv.sources]
+aus-weather-data = { git = "https://github.com/sugarlata/aus-weather-data.git" }

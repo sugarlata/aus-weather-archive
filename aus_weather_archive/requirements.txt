@@ -1,0 +1,9 @@
+aus-weather-data @ git+https://github.com/sugarlata/aus-weather-data@main
+colorama==0.4.6
+ftputil==5.1.0
+loguru==0.7.2
+numpy==2.1.2
+pytz==2024.2
+types-pytz==2024.2.0.20241003
+tzdata==2024.2
+win32-setctime==1.1.0
